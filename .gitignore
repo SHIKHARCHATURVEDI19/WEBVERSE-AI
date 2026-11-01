@@ -1,0 +1,16 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+build/
+dist/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.tsbuildinfo
+.coverage
+.DS_Store

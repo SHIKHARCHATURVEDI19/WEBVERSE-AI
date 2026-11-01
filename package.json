@@ -1,0 +1,11 @@
+{
+  "name": "webverse-ai",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev:studio": "pnpm --filter @webverse/studio dev",
+    "build:studio": "pnpm --filter @webverse/studio build",
+    "lint:studio": "pnpm --filter @webverse/studio lint",
+    "typecheck:studio": "pnpm --filter @webverse/studio typecheck"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@webverse/site-schema",
+  "version": "0.1.0",
+  "private": true,
+  "files": ["site-spec.schema.json", "example-portfolio.json"]
+}

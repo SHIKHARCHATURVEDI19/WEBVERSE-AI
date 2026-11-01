@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "0.1.0",
+  "project": {
+    "name": "Alex Morgan — Creative Developer",
+    "category": "portfolio",
+    "description": "A warm, editorial portfolio with an abstract 3D sculpture."
+  },
+  "theme": {
+    "colors": {
+      "primary": "#C96532",
+      "background": "#FBF6ED",
+      "surface": "#FFFDF8",
+      "text": "#2D2925",
+      "muted": "#8A7C70"
+    },
+    "fonts": { "display": "Playfair Display", "body": "DM Sans" },
+    "radius": "medium"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "hero",
+          "type": "3d-hero",
+          "title": "Ideas made tangible.",
+          "scene": { "preset": "abstract-sculpture", "enabled": true, "rotationSpeed": 0.2 }
+        },
+        { "id": "work", "type": "project-grid", "title": "Selected work" },
+        { "id": "about", "type": "about", "title": "A little about me" },
+        { "id": "contact", "type": "contact", "title": "Let's make something" }
+      ]
+    }
+  ],
+  "assets": [],
+  "metadata": { "provider": "example", "generated": false }
+}
